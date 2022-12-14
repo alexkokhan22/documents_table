@@ -1,0 +1,107 @@
+{
+  "documents": [
+    {
+      "id": "1",
+      "status": "active",
+      "sum": 12,
+      "qty": 100,
+      "volume": 200,
+      "name": "doc_1",
+      "delivery_date": "2018-03-18",
+      "currency": "usd"
+    },
+    {
+      "id": "2",
+      "status": "active",
+      "sum": 40,
+      "qty": 500,
+      "volume": 100,
+      "name": "doc_2",
+      "delivery_date": "2020-02-11",
+      "currency": "eu"
+    },
+    {
+      "id": "3",
+      "status": "active",
+      "sum": 10,
+      "qty": 50,
+      "volume": 40,
+      "name": "doc_3",
+      "delivery_date": "2019-01-12",
+      "currency": "usd"
+    },
+    {
+      "id": "4",
+      "status": "archive",
+      "sum": 200,
+      "qty": 500,
+      "volume": 1000,
+      "name": "doc_4",
+      "delivery_date": "2022-01-01",
+      "currency": "rub"
+    },
+    {
+      "id": "5",
+      "status": "archive",
+      "sum": 300,
+      "qty": 500,
+      "volume": 1200,
+      "name": "doc_5",
+      "delivery_date": "2021-08-03",
+      "currency": "rub"
+    }
+  ],
+  "documents1": [
+    {
+      "id": "6",
+      "status": "archive",
+      "sum": 10,
+      "qty": 10,
+      "volume": 50,
+      "name": "doc1_1",
+      "delivery_date": "2017-03-15",
+      "currency": "usd"
+    },
+    {
+      "id": "7",
+      "status": "active",
+      "sum": 50,
+      "qty": 600,
+      "volume": 200,
+      "name": "doc1_2",
+      "delivery_date": "2021-03-11",
+      "currency": "eu"
+    },
+    {
+      "id": "8",
+      "status": "active",
+      "sum": 100,
+      "qty": 500,
+      "volume": 400,
+      "name": "doc1_3",
+      "delivery_date": "2019-04-19",
+      "currency": "usd"
+    },
+    {
+      "id": "9",
+      "status": "active",
+      "sum": 100,
+      "qty": 400,
+      "volume": 8000,
+      "name": "doc1_4",
+      "delivery_date": "2015-01-15",
+      "currency": "rub"
+    },
+    {
+      "id": "10",
+      "status": "archive",
+      "sum": 300,
+      "qty": 500,
+      "volume": 1200,
+      "name": "doc1_5",
+      "delivery_date": "2021-04-08",
+      "currency": "rub"
+    }
+  ],
+  "cancel": []
+}
