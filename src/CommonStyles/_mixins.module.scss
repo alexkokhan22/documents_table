@@ -1,0 +1,14 @@
+// flex box
+@mixin flex(
+  $dis: flex,
+  $dir: row,
+  $wrap: nowrap,
+  $just: inherit,
+  $ali: inherit
+) {
+  display: $dis;
+  flex-direction: $dir;
+  flex-wrap: $wrap;
+  justify-content: $just;
+  align-items: $ali;
+}

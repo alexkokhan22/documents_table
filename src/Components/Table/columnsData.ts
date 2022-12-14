@@ -1,0 +1,70 @@
+//types
+import { GridColDef } from '@mui/x-data-grid';
+
+export const columnsTableData: GridColDef[] = [
+  {
+    field: 'status',
+    headerName: 'статус',
+    width: 170,
+    editable: false,
+    sortable: false,
+    hideable: false,
+  },
+  {
+    field: 'sum',
+    headerName: 'сумма',
+    width: 170,
+    editable: false,
+    sortable: false,
+    hideable: false,
+  },
+  {
+    field: 'qty',
+    headerName: 'кол-во',
+    width: 170,
+    editable: false,
+    sortable: false,
+    hideable: false,
+  },
+  {
+    field: 'volume',
+    headerName: 'объем',
+    editable: false,
+    sortable: false,
+    width: 170,
+    hideable: false,
+  },
+  {
+    field: 'name',
+    headerName: 'наименование',
+    width: 170,
+    editable: false,
+    sortable: false,
+    hideable: false,
+  },
+  {
+    field: 'delivery_date',
+    headerName: 'дата доставки',
+    type: 'date',
+    width: 170,
+    editable: false,
+    sortable: false,
+    hideable: false,
+  },
+  {
+    field: 'currency',
+    headerName: 'валюта',
+    editable: false,
+    sortable: false,
+    width: 170,
+    hideable: false,
+  },
+  {
+    field: 'total',
+    headerName: 'сумарно',
+    editable: false,
+    sortable: false,
+    width: 170,
+    hideable: false,
+  },
+];

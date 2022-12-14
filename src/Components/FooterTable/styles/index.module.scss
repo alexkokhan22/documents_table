@@ -1,0 +1,6 @@
+@import 'src/CommonStyles/main.module';
+
+.footerContainer {
+  width: 100%;
+  @include flex($dir: column, $just: flex-start, $ali: flex-start);
+}

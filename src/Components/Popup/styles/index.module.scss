@@ -1,0 +1,14 @@
+@import 'src/CommonStyles/main.module';
+
+.dialogContainer {
+  padding: 20px;
+
+  .dialogTitle {
+    @include flex($dir: column, $ali: center);
+  }
+
+  .dialogText {
+    @include flex($dir: column, $ali: flex-start);
+    padding-left: 30px;
+  }
+}
